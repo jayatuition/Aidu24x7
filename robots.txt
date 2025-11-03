@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aidu24x7.jayatuition.com/sitemap.xml
