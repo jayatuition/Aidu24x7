@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET Physics Practice - AIDU24x7</title>
+    <link rel="icon" type="image/gif" href="logo2.gif">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        /* Header matching your site style */
+        .site-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-section img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: white;
+            padding: 5px;
+        }
+
+        .site-title h1 {
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+
+        .site-title p {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        /* Quiz Container */
+        .quiz-wrapper {
+            width: 100%;
+            min-height: calc(100vh - 100px);
+            padding: 0;
+        }
+
+        .quiz-iframe {
+            width: 100%;
+            height: calc(100vh - 100px);
+            border: none;
+            display: block;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .site-title h1 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="logo2.gif" alt="AIDU24x7 Logo">
+                <div class="site-title">
+                    <h1>AIDU24x7</h1>
+                    <p>NEET Physics Practice Platform</p>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="physics-quiz.html">Physics Quiz</a>
+                <a href="https://jayatuition.com">Main Site</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Embedded Quiz -->
+    <div class="quiz-wrapper">
+        <iframe 
+            src="https://jayatuition.github.io/Neet-Physics/" 
+            class="quiz-iframe"
+            title="NEET Physics Practice Quiz"
+            allowfullscreen>
+        </iframe>
+    </div>
+</body>
+</html>
